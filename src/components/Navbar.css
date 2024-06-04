@@ -1,0 +1,57 @@
+@media screen and (max-width: 639px) {
+  #mobile-menu {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    top: 0rem;
+    left: -250px;
+    width: 250px;
+    height: 100vh;
+    padding-left: 1rem;
+    padding-top: 4rem;
+    font-weight: 700;
+    gap: 0.5rem;
+    transition: 0.3s ease-in-out;
+    z-index: 10;
+  }
+}
+
+#mobile-menu.active {
+  left: 0px;
+}
+
+.nav-anim {
+  position: relative;
+}
+
+.nav-anim:hover::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: calc(100% + 25px);
+  background-color: orange;
+  animation-name: expand;
+  animation-duration: 1s;
+  animation-iteration-count: initial;
+}
+
+@keyframes expand {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.cartButton:hover path {
+  fill: #000000;
+}

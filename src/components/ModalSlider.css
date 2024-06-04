@@ -1,0 +1,7 @@
+.closeModalButton:hover path {
+  fill: #fb923c;
+}
+
+.changeImageButton:hover path {
+  stroke: #fb923c;
+}

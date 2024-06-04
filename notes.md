@@ -1,0 +1,4 @@
+-First project with tailwind
+-Header https://www.youtube.com/watch?v=23BHwAFIZmk&t=2336s
+-Image slider https://www.youtube.com/watch?v=Kx8XlKRBZx8
+-Burger menu https://www.youtube.com/watch?v=N0LWLkaJz1I
